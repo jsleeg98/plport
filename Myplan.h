@@ -1,5 +1,3 @@
-//MYPLAN 클래스 나민수 구현
-
 #pragma once
 #include <iostream>
 #include "pch.h"

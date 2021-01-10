@@ -86,7 +86,7 @@ int UTF8ToAnsi(char* szSrc, char* strDest, int destSize)
 	return nAnsiSize;
 }
 
-//나민수
+
 BOOL Week::OnInitDialog()
 {
 	CDialogEx::OnInitDialog();
@@ -171,7 +171,7 @@ BOOL Week::OnInitDialog()
 				  // 예외: OCX 속성 페이지는 FALSE를 반환해야 합니다.
 }
 
-//이동현
+
 void Week::OnPaint()
 {
 	CPaintDC dc(this); // device context for painting
@@ -239,7 +239,6 @@ void Week::OnPaint()
 
 
 
-//나민수
 void Week::OnBnClickedAddBtn()
 {
 	// TODO: 여기에 컨트롤 알림 처리기 코드를 추가합니다.
@@ -374,7 +373,7 @@ void Week::OnBnClickedAddBtn()
 }
 
 
-//나민수 //달력 컨트롤 선택 변경 시 
+//달력 컨트롤 선택 변경 시 
 void Week::OnMcnSelchangeMonthcalendar(NMHDR* pNMHDR, LRESULT* pResult)
 {
 	LPNMSELCHANGE pSelChange = reinterpret_cast<LPNMSELCHANGE>(pNMHDR);
@@ -407,7 +406,7 @@ void Week::OnMcnSelchangeMonthcalendar(NMHDR* pNMHDR, LRESULT* pResult)
 	*pResult = 0;
 }
 
-//나민수
+
 //삭제 버튼
 void Week::OnBnClickedDelBtn()
 {
@@ -434,7 +433,7 @@ void Week::OnBnClickedDelBtn()
 	
 }
 
-//나민수
+
 void Week::OnNMClickList(NMHDR* pNMHDR, LRESULT* pResult)
 {
 	LPNMITEMACTIVATE pNMItemActivate = reinterpret_cast<LPNMITEMACTIVATE>(pNMHDR);
@@ -461,7 +460,7 @@ void Week::OnNMClickList(NMHDR* pNMHDR, LRESULT* pResult)
 	*pResult = 0;
 }
 
-//나민수
+
 void Week::OnDestroy()
 {
 	CDialogEx::OnDestroy();
@@ -472,7 +471,7 @@ void Week::OnDestroy()
 
 
 
-//나민수
+
 //엑셀로 출력 버튼 
 void Week::OnBnClickedTestBtn()
 {

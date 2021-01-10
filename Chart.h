@@ -1,5 +1,4 @@
-﻿//이동현 CHART 클래스 구현
-#pragma once
+﻿#pragma once
 
 
 // Chart 대화 상자

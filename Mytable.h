@@ -1,5 +1,3 @@
-//이동현 MYTALBE 클래스 구현
-
 #pragma once
 
 #include "pch.h"

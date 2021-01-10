@@ -1,5 +1,4 @@
-﻿//이동현 SETUP 클래스 구현
-#pragma once
+﻿#pragma once
 #include "Mytable.h"
 #include "Myplan.h"
 #include <vector>

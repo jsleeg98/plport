@@ -1,6 +1,4 @@
-﻿//이동현 SETUP 클래스 구현
-
-#include "pch.h"
+﻿#include "pch.h"
 #include "plport_ver3.h"
 #include "Setup.h"
 #include "afxdialogex.h"

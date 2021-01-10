@@ -1,5 +1,3 @@
-//이동현 MYTABLE 클래스 구현
-
 #include "pch.h"
 #include <iostream>
 #include "Mytable.h"
