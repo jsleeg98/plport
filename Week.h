@@ -4,7 +4,7 @@
 #include "Myplan.h"
 #include <vector>
 
-// Week 대화 상자
+// Week 대화 상자 
 
 class Week : public CDialogEx
 {
@@ -33,6 +33,7 @@ public:
 	
 	CMonthCalCtrl m_monthcalendar; //달력 멤버 변수
 
+	
 	//Static text 폰트 설정
 	CFont m_static_font;
 	
